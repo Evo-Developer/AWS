@@ -31,7 +31,7 @@ resource "aws_instance" "web1" {
  
 }
 
-output "webserver" {
+output "webserver1" {
     
     value=aws_instance.web1[1].public_ip
 }
